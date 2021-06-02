@@ -1,0 +1,10 @@
+const donasi = () => { 
+	return `◪ *「 DONASI 」*
+│
+└❏ *GOPAY*
+   ❏ 083152753417
+   ❏ *PULSA*
+   ❏ 081462239208`
+}
+
+exports.donasi = donasi
