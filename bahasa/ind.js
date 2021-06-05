@@ -193,11 +193,10 @@ ${emot} Menu Stiker
 ${emot} Menu Anime
 ${emot} Menu Maker 
 ${emot} Menu Grup 
-${emot} Menu NSFW 
+${emot} Menu Game
 ${emot} Menu Owner 
 ${emot} Menu Leveling
 ${emot} Menu Tools 
-${emot} Menu Fun 
 ${emot} Menu Shop 
 ${emot} Menu Link
 ${emot} Menu Premium 
@@ -260,6 +259,9 @@ exports.menuSticker = () => {
     return `
 ╔═══✪ [ *MENU STICKER* ]
 
+〤 *${prefix}tovideo*
+〤 *${prefix}togif*
+〤 *${prefix}stickerwa*
 〤 *${prefix}stickerwa*
 〤 *${prefix}liststicker*
 〤 *${prefix}addsticker*
@@ -706,4 +708,96 @@ exports.set = () => {
     `
 }
 
+exports.menuAnime = () => {
+    return `
+╔═══✪ [ *MENU ANIME* ]
+║
+╠➣ *${prefix}Anime* 
+╠➣ *${prefix}quotesnime*
+╠➣ *${prefix}neko*
+╠➣ *${prefix}genshin* karakter
+╠➣ *${prefix}neko2*
+╠➣ *${prefix}kemono*
+╠➣ *${prefix}waifu*
+╠➣ *${prefix}waifustiker*
+╠➣ *${prefix}anoboy*
+╠➣ *${prefix}anitoki*
+╠➣ *${prefix}kusonime* judul
+╠➣ *${prefix}komiku* judul_manga
+╠➣ *${prefix}wait* reply_foto
+╠➣ *${prefix}saurce* reply_foto
+╠➣ *${prefix}wp*
+╠➣ *${prefix}wpanime*
+╠➣ *${prefix}wpanime2*
+╠➣ *${prefix}baka*
+╠➣ *${prefix}rhug*
+╠➣ *${prefix}slap*
+╠➣ *${prefix}nekostiker*
+╠➣ *${prefix}randompat*
+╠
+╠
+╚═══✪ [ ${botName} ]
 
+
+
+`
+}
+
+exports.menuTools = () => {
+    return `
+╔═══✪ [ *MENU TOOLS* ]
+║
+╠➣ *${prefix}carigrup* kata kunci
+╠➣ *${prefix}ocr* kirim gambar
+╠➣ *${prefix}githubstalk* username
+╠➣ *${prefix}encode* teks
+╠➣ *${prefix}decode* teks
+╠➣ *${prefix}texttohex* teks
+╠➣ *${prefix}hextotext* teks
+╠➣ *${prefix}playstore* apk
+╠➣ *${prefix}chord* judul
+╠➣ *${prefix}shopee* produk
+╠➣ *${prefix}tts* teks
+╠➣ *${prefix}tts2* teks
+╠➣ *${prefix}say* teks
+╠➣ *${prefix}movie* judul
+╠➣ *${prefix}corona* negara
+╠➣ *${prefix}jumlahhuruf* teks
+╠➣ *${prefix}infogempa*
+╠➣ *${prefix}gempa*
+╠➣ *${prefix}spek* merk HP
+╠➣ *${prefix}infomotor* merek
+╠➣ *${prefix}infomobil* merek
+╠➣ *${prefix}tribunnews*
+╠➣ *${prefix}liputan6*
+╠➣ *${prefix}lirik* judul
+╠➣ *${prefix}shortlink* link
+╠➣ *${prefix}bitly* link
+╠➣ *${prefix}igstalk* username
+╠➣ *${prefix}gsmarena* HP
+╠➣ *${prefix}readmore* teks | teks
+╠➣ *${prefix}afk* alasan
+╠➣ *${prefix}distance* kota1 | kota2
+╠➣ *${prefix}mutual*
+╠➣ *${prefix}whois* alamat IP
+╠➣ *${prefix}sms* pesan | nomornya
+╠➣ *${prefix}cekongkir*
+╠➣ *${prefix}jobseek*
+╠➣ *${prefix}spamcall* nomor 
+╠➣ *${prefix}email*
+╠➣ *${prefix}sspc* link
+╠➣ *${prefix}ssphone* link
+╠➣ *${prefix}judul* judul
+╠➣ *${prefix}resi* jnt (resi)
+╠➣ *${prefix}qrcode* 
+╠➣ *${prefix}qrread* 
+╠➣ *${prefix}cuaca* 
+╠➣ *${prefix}gempa* 
+╠➣ *${prefix}kodebahasa* 
+╠➣ *${prefix}reminder* 60s | pesan 
+╠
+╚═══✪ [ ${botName} ]
+
+
+`
+}
